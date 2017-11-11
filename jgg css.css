@@ -1,0 +1,38 @@
+
+.lay{
+    position: absolute;
+    top:10%;
+    left: 38%;
+    width: 300px;
+    height: 500px;
+}
+.main{
+    width: 300px;
+    height: 300px;
+}
+.main>div{
+    width: 25%;
+    height: 5%;
+    padding-bottom: 21%;
+    background-color: orange;
+    border-radius: 10%;
+    float: left;
+    margin: 4%;
+}
+.button{
+    width:300px;
+    height: 50px;
+    text-align: center;
+    line-height: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color:orange ;
+    border: 2px solid orange;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+.button:hover
+{
+    background-color: orange;
+    color:white;
+}
